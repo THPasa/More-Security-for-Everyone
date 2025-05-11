@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Iceland&display=swap"
+    rel="stylesheet">
+    <!--Aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Quiz Time..!</title>
+
+</head>
+<body class="quiz-body">
+  
+    <main class="quiz">
+
+      <a href="javascript:void(0)" onclick="quiz()" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back
+      </a>
+
+      <section class="quiz_top">
+        <h1>QUIZ TIME</h1>
+        <h3>🔐 Security Awareness Test</h3>
+         <p>
+            In this section, you will see statements related to your daily habits or situations you might encounter at any time in life.
+            Each statement comes with <strong>True / False</strong> options.
+            Don't hesitate to answer honestly.😅
+            You might be surprised at how many security gaps you're unintentionally creating!
+          </p>
+          <p>🎯 <strong>Have fun and stay safe!</strong></p>
+      </section>
+
+      <!--Statement 1-->
+      <article class="statement" data-answer="true" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 1:</span> I always lock the door of my house, whether I am at home or not.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ✅ Great! Locking your door at all times is an important step to ensure your safety. Even when you are at home, locking your door protects you against potential threats such as theft.</div>
+          <div class="exp_false"> ❗ Leaving your door unlocked can put your safety at risk. Locked doors are always an obstacle for thieves to overcome. The locked doors also protect you even when you can't hear the door open because of the noise in your home.</div>
+        </div>
+      </article>
+
+      <!--Statement 2-->
+      <article class="statement statement-grey" data-answer="true" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 2:</span> My phone has a key lock or face recognition system and my computer also has a password.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ✅ Perfect! Using encryption and biometric verification on your phone and computer is an important step to protect your personal data. Such security measures prevent unauthorized access to your device.</div>
+          <div class="exp_false"> ❗ When your phone and computer are unencrypted, the risk of your personal data being stolen increases. Adding strong passwords or biometric verification to your devices significantly increases your security.</div>
+        </div>
+      </article>
+
+      <!--Statement 3-->
+      <article class="statement" data-answer="false" data-aos="zoom-in-up" data-aos-offset="250">
+        <p><span>Statement 3:</span> I share my internet with others, I like to use the free internet service at train stations, airports, etc.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗ It pays to be careful! Free internet services, especially in public places like train stations and airports, offer great opportunities for hackers. The risk of your personal data being stolen over such networks is very high. You should take care to use secure connections.</div>
+          <div class="exp_false"> ✅ That's right!  Sharing your internet with people you don't know can lead to things being done beyond your control. Using only secure, encrypted Wi-Fi networks is also the most effective way to protect your data. Being careful on public Wi-Fi networks keeps you safe from dangers like phishing and data theft.</div>
+        </div>
+      </article>
+
+      <!--Statement 4-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 4:</span> I see no harm in charging my phone from public charging stations.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗You should be careful! Public charging stations can be used by malicious people to install malware on your device. It can lead to data theft or malware infecting your device via USB ports. It is always safer to use your own charger.</div>
+          <div class="exp_false"> ✅ Very good! Public charging stations can damage your device. It is important to charge your device only on safe and private chargers to ensure the safety of your data. It is best to avoid such risks, especially in public areas.</div>
+        </div>
+      </article>
+
+      <!--Statement 5-->
+      <article class="statement"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 5:</span> I do not hesitate to answer calls from an unknown number on my phone.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗You should be careful! Calls from unknown numbers may be fraudulent calls. Such calls may be used to steal your personal information. For example, your conversation may be recorded without your knowledge and the first <b>“Yes” </b>you say may be used later to do other things with your voice.</div>
+          <div class="exp_false"> ✅ You are being too careful! Answering calls from unknown numbers can increase your risk of phishing and scams. You should be careful when receiving calls from people you don't know and reject the call if possible.</div>
+        </div>
+      </article>
+
+      <!--Statement 6-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 6:</span> I like to share my daily routines, vacation memories or when I eat outside my home on social media .</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It is useful to be careful! Social media can become a platform where malicious people can access your personal information. Sharing your daily routines, vacation plans or moments when you eat out can create an opportunity for thieves. Based on the information you share, they can determine that you are not at home and have a chance to break in. Therefore, you should be careful about what you share on social media and only share this information with people you trust.</div>
+          <div class="exp_false"> ✅ Great approach! It is very important to be careful when sharing personal information on social media. Sharing information such as your daily routines, vacation plans and meals out can let burglars know that you are not at home. Keeping such information private increases your home security. You should only share necessary information on social media and prevent unauthorized access to your personal information.</div>
+        </div>
+      </article>
+      
+      <!--Statement 7-->
+      <article class="statement "  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 7:</span> I participate in social media giveaways very often or I think I have a very high chance of winning something from such giveaways.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗You must be careful! Fake sweepstakes, which are common on social media, are scams used to steal your personal information or cause you harm. Real sweepstakes are usually not random and do not ask you to provide personal information. When you come across any offer to win a prize, you should thoroughly investigate whether it is real or not.</div>
+          <div class="exp_false"> ✅ Very true! Sweepstakes and offers promising prizes are often fraudulent. It is very important to avoid participating in such fake sweepstakes to protect your personal information and security. Real sweepstakes are always transparent and do not ask for your personal information.</div>
+        </div>
+      </article>
+      
+      <!--Statement 8-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 8:</span> I like to use social media dating apps and meet new people, I am not afraid to meet new people.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It is better to be careful! People you meet through dating apps and social media can sometimes be malicious. They may organize honeytrap attacks to learn your personal information or manipulate you. Such traps can be used for phishing, financial fraud or worse. It is important to be careful and not share personal information with people you do not know.</div>
+          <div class="exp_false"> ✅ Very good! Communicating easily with people you don't know through social media and dating apps can pose many dangers. Honeytrap attacks aim to steal your personal information and scam you through people you don't know. It is very important to be careful on social media, only communicate with people you trust and protect your personal information.</div>
+        </div>
+      </article>
+
+      
+      <!--Statement 9-->
+      <article class="statement"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 9:</span> It is normal for public officials to call me and demand things from me, even money.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗You must be careful! It is highly abnormal and a sign of a major scam if public officials call you on the phone and ask for money. Real public officials do not ask for money over the phone under any circumstances. If you encounter such a situation, you can be sure that this person is a scammer. If you encounter such situations, you should immediately notify your local law enforcement authorities or relevant government agencies. Such telephone solicitations are usually made with the intention of stealing your personal information and causing you financial harm.</div>
+          <div class="exp_false"> ✅ That's the right approach! Public officials do not demand money over the phone. If a public official asks you for money over the phone, it is most likely a fraud attempt. You should be wary of such requests and report them to the authorities immediately. Official transactions and payment requests are always made in writing and usually follow a specific procedure. To protect your personal information and finances, you should never send money in such a situation and ignore suspicious calls.</div>
+        </div>
+      </article>
+      
+      <!--Statement 10-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 10:</span> When I receive an email from the human resources department of the company I work for, I do not hesitate to share my credentials with them again and again.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It's not safe to share your credentials all the time, even in emails from your workplace. Phishing attacks aim to steal your personal information through emails that look official. If you receive a suspicious email, always verify it and only communicate through secure channels.</div>
+          <div class="exp_false"> ✅ Great approach! You should only share your credentials with trusted and official people, especially via email. Emails from the HR department can sometimes be fraudulent. Always check the authenticity of the email, even if it is really from HR, and in case of doubt, contact them directly by phone or through the official channels of the organization.</div>
+        </div>
+      </article>
+
+      
+      <!--Statement 11-->
+      <article class="statement"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 11:</span> I have a hard time remembering my passwords, so I write down all my passwords on my phone or notebook.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It pays to be careful! Writing down your passwords in your phone or notebook can make it easier for someone who has access to your device or physical documents to steal your passwords. Instead, it is much safer to use a secure password manager. Such apps store your passwords in encrypted form and help you create strong and unique combinations for each password. Also, multi-factor authentication (2FA) apps, such as Authenticator, add an extra layer of security to your accounts.</div>
+          <div class="exp_false"> ✅ Great! Using password managers to store your passwords securely is a very important step. Such apps allow you to keep your passwords strong and unique. Also, using multi-factor authentication (2FA) with apps like Authenticator doubles the security of your account. This way, your accounts can be accessed not only by someone who knows your password, but also by someone who verifies with you.</div>
+        </div>
+      </article>
+
+      
+      <!--Statement 12-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up"data-aos-offset="250">
+        <p><span>Statement 12:</span> Even if I don't write it down anywhere, I use passwords made up of my or my family members' names or birth years to make it easy to remember.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It pays to be careful! Personal information, such as your or your family members' names or dates of birth, is too weak and easy to guess for passwords. Such information can be easily guessed by cyber attackers or learned through social engineering techniques. A strong password should contain a mix of lowercase letters, uppercase letters, numbers and special characters. Also, using different and long passwords for each account increases your cybersecurity.</div>
+          <div class="exp_false"> ✅ Very good! Strong passwords should be long and difficult to guess. Passwords that are at least 12 characters long and contain uppercase letters, lowercase letters, numbers and special characters will significantly increase your account security. Also, using a different password for each account prevents your other accounts from being compromised in the event of a security breach in one account. You can store all your passwords securely using a password manager.</div>
+        </div>
+      </article>
+
+      
+      <!--Statement 13-->
+      <article class="statement"  data-answer="false" data-aos="zoom-in-up" data-aos-offset="250">
+        <p><span>Statement 13:</span> I do not hesitate to access applications that require a password, such as banking applications, in public places such as trains, buses, and markets.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗You should be careful! You should be careful when entering your password in public areas, because entering your password where others can see it poses a security risk. Especially in crowded places like trains, buses or markets, shoulder surfing (stealing passwords by looking over your shoulder) can occur. In addition, there may be security cameras in some places and your password can be monitored through these cameras. To prevent such situations, you should only perform banking transactions and sensitive information in safe, private areas.</div>
+          <div class="exp_false"> ✅ You are being very careful! It is a very correct approach to avoid logging into sensitive applications such as banking in public areas, especially in places like trains, buses or markets. The presence of people who can see your passwords in such areas brings with it dangers such as shoulder surfing (stealing passwords by looking over your shoulder). In addition, there may be security cameras in some places and your password can be detected through these cameras. It is important to avoid trading with sensitive information in such areas and to trade in a safe area in order to protect your personal information.</div>
+        </div>
+      </article>
+
+      
+      <!--Statement 14-->
+      <article class="statement statement-grey"  data-answer="false" data-aos="zoom-in-up" data-aos-offset="250">
+        <p><span>Statement 14:</span> If I find a USB memory stick or any other digital device outside, I do not hesitate to connect it to my computer or phone to see what is inside.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It is important to be careful! When you find a USB memory stick or digital device, it may contain malware. Connecting such devices to your computer or phone can lead to your system being compromised, your data being stolen, or your personal information being damaged. Especially devices like the USB Rubber Ducky can load malicious software with a connection. You should definitely check such devices in a safe environment before using them and definitely avoid connecting devices you do not know.</div>
+          <div class="exp_false"> ✅ Great decision! Connecting a USB stick or digital device that you don't know to your computer can pose serious security risks. Such devices may contain malware and can damage your computer or steal your personal information. To protect your security, you should only connect trusted devices and never use lost or unfamiliar devices. If you are curious, you can scan the device with an antivirus software that you trust.</div>
+        </div>
+      </article>
+      
+      <!--Statement 15-->
+      <article class="statement"  data-answer="false" data-aos="zoom-in-up" data-aos-offset="150">
+        <p><span>Statement 15:</span> When I want to install a paid program on my computer, I download the free version of it from the internet instead of buying it.</p>
+        
+        <div class="answers">
+          <button class="ans_true">True</button>
+          <button class="ans_false">False</button>
+        </div>
+
+        <div class="explanations">
+          <div class="exp_true"> ❗It is useful to be careful! Cracked or unlicensed software usually contains malware and viruses. Such software can steal your personal data or corrupt your system by installing malicious software on your computer. In addition, this software can cause security gaps and even antivirus programs may not always detect these threats. Getting your software only from reliable and legal sources is the safest way to protect your computer and personal information. Using antivirus software is important, but downloading unsafe software always leads to greater risks. In addition, there is a high probability that using unlicensed products may be legally liable, and a free service may cost you your personal information.</div>
+          <div class="exp_false"> ✅ Great decision! Licensed software is usually safer in terms of security because it is obtained from official sources and does not contain malware. Cracked or free software can be a potential threat for viruses and malware. Such software can install malicious software on your computer and steal your data. Although antivirus software can protect against these threats, it is safest to use only safe and legal software. Getting licensed software is the best way to ensure the security of your computer.</div>
+        </div>
+      </article>
+
+    </main>
+
+      <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="typeOfSoc.html">Type of Social Engineering</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="helping_james.html">Meet James</a></li>
+            <li><a href="helping_emma.html">Meet Emma</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p class="about-text">
+            This site has been designed to raise awareness of social engineering attacks and to raise awareness of threats that may be encountered in everyday digital life. Knowledge is power and cyber security is everyone's right.
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        2025 Designed by anti-social engineering ethical hacker<a href="https://www.linkedin.com/in/%C3%B6mer-faruk-alkan-cyber-security-engineer/"> "<u>Ömer Faruk Alkan</u>"</a>
+      </div>
+    </footer>
+ 
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
+   
+</body>
+</html>

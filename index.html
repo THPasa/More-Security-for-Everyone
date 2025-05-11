@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>More Security for Everyone</title>
+  <!--  CSS file  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!--Aos-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Iceland&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Menu bar-->
+  <nav class="nav-bar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="pictures/Cyber_logo.png" alt="Logo"> <!-- Logo resminizi buraya ekleyin -->
+          <span>Social Engineering</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="typeOfSoc.html">Type of Social Engineering</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li class="dropdown">
+          <a href="helping_james.html" class="dropbtn">Story Mode <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="helping_james.html">Meet James</a>
+            <a href="helping_emma.html">Meet Emma</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Video Section-->
+  <header class="video-section">
+    <!-- Background Video -->
+    <video class="background-video" autoplay muted loop>
+      <source src="./videos/main.MP4" type="video/mp4">
+      Your browser doesn't support this video.
+    </video>
+
+    <!-- Delayed Video -->
+    <div id="delayed" class="delayed-card hidden">
+      <video class="card-vid" autoplay muted loop>
+        <source src="./videos/cmd.mp4" type="video/mp4">
+        Your browser doesn't support this video.
+      </video>
+    </div>
+  </header>
+
+  <!-- First page after scroll -->
+  <article class="first_page">
+    <!-- left top pic. -->
+    <section class="image-box1" data-aos="zoom-in-up">
+      <img src="pictures/firstpage_pic.jpg" alt="Sol Üst Resim" class="full-image">
+    </section>
+
+    <!-- right top text -->
+    <section class="text-box" data-aos="zoom-in-up">
+      <h2><i><b><span>Social Engineering -</span>- As Strong As the Weakest Link in the Chain</b></i></h2>
+      <br>
+      <p><i>Social engineering is a cyber-attack method based on manipulating human
+          psychology to gain access to sensitive information. Instead of overcoming technical challenges, hackers
+          directly exploit human weaknesses to achieve their goals.</i></p>
+      <p> <i>Social engineering attacks have increased rapidly in the last 10 years.
+          Millions of people, from large companies to individual users, have been deceived by this method. <b>Phishing,
+            fake call centers, and deepfake technologies </b> are among the most common methods of these attacks. </i>
+      </p>
+    </section>
+
+    <!-- left bottom text -->
+    <section class="text-box-bottom" data-aos="zoom-in-up">
+      <p><i>As years go by, technology advances and security measures tighten. Yet, billion-dollar losses continue to
+          rise.
+          There's only one explanation: <b> Every security has a vulnerability; the vulnerability of cybersecurity is
+            the HUMAN FACTOR.</b></i></p>
+    </section>
+
+    <!-- left bottom pic. -->
+    <section class="image-box2" data-aos="zoom-in-up" >
+      <img src="pictures/cybersecurity_graph.jpg" alt="Sağ Alt Resim" class="full-image">
+    </section>
+
+  </article>
+
+  <!--second page cards-->
+  <article class="content-section2">
+    <header class="page3CardsTop" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+      <h1><span>More SECURITY</span> for Everyone</h1>
+      <p>Keep Scrolling and Discover How to Make Your Life Safer!</p>
+    </header>
+
+    <!--Cards texts-->
+    <main class="page3Container">
+
+      <section class="card" data-aos="fade-left" id="howSec">
+        <img src="pictures/page3_1.jpg" alt="type of Social Engineering">
+        <a href="typeOfSoc.html">
+        <div class="odd_cards">
+          <h2><span>Persuasion, Manipulation, Deception</span></h2>
+          <h3>Which Social Engineering Tactic Would Fool You?</h3>
+          <p>There are many forms of social engineering, and each one is a trap waiting for you! Tap to learn more...
+          </p>
+        </div>
+        <button class="btn">Learn More</button>
+        </a>
+      </section>
+
+
+
+      <section class="card" data-aos="fade-right" id="quiz">
+        <img src="pictures/how_secure_are_you.jpg" alt="how_secure_are_you">
+        <a href="quiz.html">
+        <div class="even_cards">
+          <h2><span>How Safe Are You?</span></h2>
+          <h3>Take the Test and See How Easily You Could Be Exposed.</h3>
+          <p>You won't believe what you've been overlooking in your daily life. Click to test your security and find
+          out!</p>
+        </div>
+        <button class="btn">Let's Test</button>
+        
+        </a>
+      </section>
+
+
+
+      <section class="card" data-aos="fade-left" id="james">
+        <img src="pictures/james_1.png" alt="james_1">
+        <a href="helping_james.html">
+        <div class="odd_cards">
+          <h2><span>Let's Meet James!</span></h2>
+          <h3>Just click on the simple email, as you always do...</h3>
+          <p>James works as a Project Coordinator at NetSecure Solutions. He received an email today, but something seems to be going wrong. Click here and lend a hand!</p>
+        </div>
+        <button class="btn">James</button>
+        </a>
+      </section>
+
+
+
+      <section class="card" data-aos="fade-right" id="emma">
+        <img src="pictures/emma_thanks.png" alt="emma_meet">
+        <a href="helping_emma.html">
+        <div class="even_cards">
+          <h2><span>Let's Meet Emma!</span></h2>
+          <h3> What do you think the cost of a free app might be?</h3>
+          <p>Emma works as a financial consultant at Linden & Partners Accounting. She just wanted to turn her company into a bit more of a profit.Click here and lend a hand!</p>
+        </div>
+        <button class="btn">Emma</button>
+        </a>
+      </section>
+      
+    </main>
+  </article>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="typeOfSoc.html">Type of Social Engineering</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="helping_james.html">Meet James</a></li>
+        <li><a href="helping_emma.html">Meet Emma</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p class="about-text">
+        This site has been designed to raise awareness of social engineering attacks and to raise awareness of threats that may be encountered in everyday digital life. Knowledge is power and cyber security is everyone's right.
+      </p>
+    </div>
+  </div>
+  <div class="copyright">
+    2025 Designed by anti-social engineering ethical hacker<a href="https://www.linkedin.com/in/%C3%B6mer-faruk-alkan-cyber-security-engineer/"> "<u>Ömer Faruk Alkan</u>"</a>
+  </div>
+</footer>
+
+    <!-- AOS Init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
