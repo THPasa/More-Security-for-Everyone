@@ -185,7 +185,31 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+  
+  .nav-links a {
+    padding: 0.5rem 0.7rem;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+}
 
+/* Video section için tablet media query */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video-section {
+    height: 90vh;
+  }
+  
+  .delayed-card {
+    max-width: 700px;
+    height: 350px;
+  }
+}
 @media (max-width: 768px) {
  
   .video-section {
@@ -268,6 +292,21 @@ body {
     color: #FB710E;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .first_page {
+    gap: 1.5rem;
+    margin: 2rem 1rem;
+  }
+  
+  .text-box, .text-box-bottom {
+    width: 40ch;
+    font-size: 1.2rem;
+  }
+  
+  .text-box p, .text-box-bottom p {
+    line-height: 1.6rem;
+  }
+}
 @media(max-width: 768px){
   .first_page{
     display: flex;
@@ -426,6 +465,32 @@ a {
     color: white;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .page3Container {
+    max-width: 900px;
+  }
+  
+  .page3CardsTop h1 {
+    font-size: 3rem;
+  }
+  
+  .page3CardsTop p {
+    font-size: 1.7rem;
+  }
+  
+  .card {
+    font-size: 1.1rem;
+  }
+  
+  .card img {
+    height: 300px;
+  }
+  
+  .btn {
+    margin-left: 8rem;
+  }
+}
+
 @media(max-width: 768px) {
     .card {
         display: block;
@@ -463,6 +528,13 @@ a {
 .back-button:hover{
   color: #fff;
   background-color: #FB710E;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .back-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -600,6 +672,24 @@ a {
     line-height: 1.4rem;
     font-family: "Genos", sans-serif;
     font-weight: 400;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .kindOf {
+    width: 90%;
+  }
+  
+  .kindOf_container_top p {
+    width: 70ch;
+  }
+  
+  .kindOf_container, .kindOf_container2 {
+    padding: 1.5rem;
+  }
+  
+  .kindOf_flex {
+    gap: 0.8rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -831,6 +921,34 @@ a {
   background-color: #b50d10;
   border-radius: 0.5rem;
   }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+  .quiz_top h1 {
+    font-size: 1.8rem;
+  }
+  
+  .quiz_top p {
+    max-width: 700px;
+    font-size: 1.2rem;
+  }
+  
+  .statement {
+    width: 80%;
+  }
+  
+  .statement p {
+    width: 60ch;
+  }
+  
+  .answers {
+    gap: 1.5rem;
+  }
+  
+  .quiz-feedbacks {
+    max-width: 500px;
+  }
+}
+
 
   @media (max-width: 768px) {
     .quiz_top p{
@@ -1181,6 +1299,86 @@ a {
     border-radius: 0.5rem;
   }
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+  .james-page, .emma-page {
+    width: 90%;
+  }
+  
+  .james-page header, .emma-page header {
+    height: 16rem;
+  }
+  
+  .james-page header h1, .emma-page header h1 {
+    font-size: 2rem;
+    top: 8rem;
+  }
+  
+  .james-page header img, .emma-page header img {
+    max-width: 20rem;
+    top: 3rem;
+  }
+  
+  /* What phishing-ransomware */
+  .what_phishing, .what_ransomware {
+    gap: 5rem;
+  }
+  
+  .what_phishing h2, .what_ransomware h2 {
+    font-size: 1.8rem;
+  }
+  
+  .what_phishing p, .what_ransomware p {
+    font-size: 1.2rem;
+  }
+   .info_phishing, .last_info {
+    padding: 2rem 3rem;
+  }
+  
+  .info_phishing ul li, .last_info ul li {
+    width: 35ch;
+  }
+   .james_meet, .james_virus, .james_exposed, .james_thanks,
+  .emma_meet, .emma_virus, .emma_exposed, .emma_exposed_2, .emma_thanks {
+    gap: 3rem;
+  }
+  
+  .james_meet h2, .james_virus h2, .james_exposed h2, .james_thanks h2,
+  .emma_meet h2, .emma_virus h2, .emma_exposed h2, .emma_exposed_2 h2, .emma_thanks h2 {
+    font-size: 1.8rem;
+  }
+  
+  .james_meet p, .james_virus p, .james_exposed p, .james_thanks p,
+  .emma_meet p, .emma_virus p, .emma_exposed p, .emma_exposed_2 p, .emma_thanks p {
+    font-size: 1.2rem;
+  }
+   .what_happ, .what_happ_2, .what_happ_mail {
+    margin: 3rem;
+    min-height: 35rem;
+  }
+  
+  .wh_text-content, .wh2_text-content, .whm_text-content {
+    max-width: 45rem;
+    min-height: 25rem;
+  }
+  
+  .wh_text-content h2, .wh2_text-content h2, .whm_text-content h2 {
+    font-size: 1.8rem;
+  }
+  
+  .wh_text-content p, .wh2_text-content p, .whm_text-content p {
+    font-size: 1.3rem;
+  }
+  
+  .possibilities button {
+    width: 70%;
+    font-size: 1.3rem;
+  }
+  
+  .reset_btn {
+    font-size: 1.3rem;
+  }
+}
+
   @media (max-width: 768px) {
     .james-page header, .emma-page header {
       flex-direction: column;
@@ -1309,6 +1507,24 @@ a {
   padding: 0.3rem auto;
   border-radius: 0.5rem;
   
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer-container {
+    padding: 0 1rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.3rem;
+  }
+  
+  .about-text {
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
